@@ -23,7 +23,7 @@ export function NavItems() {
           {/* Mobile: botão com gradiente */}
           <Button
             variant="outline"
-            className="w-full bg-gradient-to-r from-sky-200 to-emerald-50 transition-colors duration-500 hover:from-white hover:to-white hover:font-bold md:hidden"
+            className="w-full bg-white font-semibold text-sky-800 transition-colors duration-500 hover:from-white hover:to-white hover:font-bold hover:text-sky-900 md:hidden"
             asChild
           >
             <Link href={item.href} className="w-full">
@@ -34,7 +34,7 @@ export function NavItems() {
           {/* Desktop: só texto com hover branco */}
           <Link
             href={item.href}
-            className="hidden items-center rounded-xl px-4 py-2 font-semibold text-slate-700 transition-all duration-500 hover:bg-white/80 hover:text-slate-900 hover:shadow-sm md:inline-flex"
+            className="hidden items-center rounded-xl px-4 py-2 font-semibold text-sky-900 transition-all duration-500 hover:bg-white/80 hover:text-sky-950 hover:shadow-sm md:inline-flex"
           >
             {item.label}
           </Link>
