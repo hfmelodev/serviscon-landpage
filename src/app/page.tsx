@@ -1,5 +1,6 @@
 import { Header } from './_components/header'
 import { Hero } from './_components/hero'
+import { Partners } from './_components/partners'
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
 
       <Hero />
+      <Partners />
     </main>
   )
 }
