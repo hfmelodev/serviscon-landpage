@@ -40,7 +40,7 @@ export function TypesSegments() {
       {segments.map((segment, index) => (
         <MagicCard
           key={index}
-          className="group hover:-translate-y-2 flex h-full w-full flex-col items-center justify-center rounded-lg border-0 bg-gradient-to-br from-white to-gray-50 p-8 text-center transition-all duration-300 hover:shadow-xl"
+          className="group flex h-full w-full flex-col items-center justify-center rounded-lg border-0 bg-gradient-to-br from-white to-gray-50 p-8 text-center transition-all duration-300"
         >
           <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-r from-blue-100 to-green-100 transition-transform duration-300 group-hover:scale-110">
             <div className="text-blue-600 transition-colors duration-300 group-hover:text-green-600">{segment.icon}</div>

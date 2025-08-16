@@ -254,10 +254,20 @@
   button {
     @apply cursor-pointer;
   }
-}
+    /* Configurações globais do Scroll */
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;}
-  body {
-    @apply bg-background text-foreground;}}
+  ::-webkit-scrollbar-track {
+    @apply bg-muted-foreground/50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sky-600 rounded-full;
+  }
+
+  .scroll-hidden::-webkit-scrollbar {
+    @apply hidden;
+  }
+}

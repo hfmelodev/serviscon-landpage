@@ -2,6 +2,7 @@ import { Header } from './_components/header'
 import { Hero } from './_components/hero'
 import { Partners } from './_components/partners'
 import { Segments } from './_components/segments'
+import { Services } from './_components/services'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <Segments />
+      <Services />
     </main>
   )
 }
