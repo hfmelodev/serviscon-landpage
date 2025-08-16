@@ -9,7 +9,7 @@ import { WhyChooseServiscon } from './why-choose-serviscon'
 
 export function Hero() {
   return (
-    <section className="mt-16 mb-12 px-4 pt-20 pb-16 md:mt-0 md:mb-0">
+    <section className="mt-16 mb-12 px-4 pt-20 pb-16 md:mt-0 md:mb-0" id="home">
       <div className="container mx-auto">
         <div className="grid min-h-[80vh] items-center gap-12 lg:grid-cols-2">
           <div className="animate-fade-in space-y-8">

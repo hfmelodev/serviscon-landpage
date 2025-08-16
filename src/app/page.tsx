@@ -1,6 +1,7 @@
 import { Header } from './_components/header'
 import { Hero } from './_components/hero'
 import { Partners } from './_components/partners'
+import { Segments } from './_components/segments'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
 
       <Hero />
       <Partners />
+      <Segments />
     </main>
   )
 }
-0

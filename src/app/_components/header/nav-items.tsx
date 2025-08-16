@@ -10,7 +10,6 @@ import { Separator } from '@/components/ui/separator'
 export function NavItems() {
   const navItems = [
     { label: 'Início', href: '#home' },
-    { label: 'Sobre', href: '#about' },
     { label: 'Segmentos', href: '#segments' },
     { label: 'Serviços', href: '#services' },
     { label: 'Contato', href: '#contact' },
