@@ -17,7 +17,7 @@ export function NavItems({ setOpen }: NavItemsProps) {
     { label: 'Parceiros', href: '#partners' },
     { label: 'Segmentos', href: '#segments' },
     { label: 'Serviços', href: '#services' },
-    { label: 'Contato', href: '#contact' },
+    { label: 'Contato', href: '#contacts' },
   ]
 
   return (

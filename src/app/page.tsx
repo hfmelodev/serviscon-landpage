@@ -1,3 +1,4 @@
+import { Contacts } from './_components/contacts'
 import { Header } from './_components/header'
 import { Hero } from './_components/hero'
 import { Partners } from './_components/partners'
@@ -13,6 +14,7 @@ export default function Home() {
       <Partners />
       <Segments />
       <Services />
+      <Contacts />
     </main>
   )
 }

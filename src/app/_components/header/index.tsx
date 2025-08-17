@@ -12,7 +12,7 @@ export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <section className="fixed top-0 right-0 left-0 z-50 w-full border-white border-b-2 bg-gradient-to-r from-sky-700 to-sky-100 p-4 shadow-md shadow-muted backdrop-blur-md">
+    <section className="fixed top-0 right-0 left-0 z-50 w-full border-white border-b-2 bg-gradient-to-r from-sky-700 to-sky-100 p-2 shadow-md shadow-muted backdrop-blur-md">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <Link href="#home">

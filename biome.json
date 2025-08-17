@@ -21,6 +21,9 @@
 			"correctness": {
 				"useUniqueElementIds": "off"
 			},
+			"a11y": {
+				"useIframeTitle": "off"
+			},
 			"suspicious": {
 				"noShadowRestrictedNames": "off",
 				"noExplicitAny": "off",
