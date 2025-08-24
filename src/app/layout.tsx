@@ -10,7 +10,8 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: 'Serviscon',
   description: 'Transforme seu negócio com nossa gestão completa!',
-  icons: '/favicon.jpg',
+  icons: '/favicon.png',
+  authors: [{ name: 'Hilquias Ferreira Melo', url: 'https://github.com/hfmelodev' }],
 }
 
 export default function RootLayout({

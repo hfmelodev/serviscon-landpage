@@ -73,7 +73,7 @@ export default function CompanyMaps({
           <div className="flex flex-col gap-2 sm:flex-row">
             <Button
               onClick={handleGetDirections}
-              className="flex items-center gap-2 bg-sky-600 transition-colors duration-300 hover:bg-sky-700"
+              className="flex items-center gap-2 bg-sky-600 font-bold transition-colors duration-300 hover:bg-sky-700"
             >
               <ExternalLink />
               Como Chegar
@@ -92,14 +92,11 @@ export default function CompanyMaps({
 
         <div className="rounded-lg bg-muted/50 p-4">
           <h4 className="mb-2 font-medium text-sky-800 text-sm">Endereço Completo:</h4>
-          <p className="space-y-1 text-muted-foreground text-sm">
+          <p className="flex flex-col items-center justify-center gap-1 text-muted-foreground text-sm md:flex-row md:flex-wrap md:gap-x-3">
             <span>Prédio Comercial MN Center</span>
-            <br />
-            <span>R. dos Ipês, 32 – 2º Andar, Sala 06</span>
-            <br />
+            <span>R. dos Ipês, 32 - 2º Andar, Sala 06</span>
             <span>Jardim Renascença</span>
-            <br />
-            <span>São Luís – MA</span>
+            <span>São Luís - MA</span>
           </p>
         </div>
       </CardContent>

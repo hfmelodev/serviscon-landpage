@@ -5,7 +5,7 @@ export function Segments() {
   return (
     <section id="segments" className="border-gray-200 border-y py-12">
       <div className="container mx-auto px-4">
-        <div className="mb-16 text-center">
+        <div className="mb-16 animate-fade-in text-center">
           <Badge className="mb-4 bg-emerald-100 text-emerald-800 hover:bg-emerald-100">🚀 Segmentos Atendidos</Badge>
           <h2 className="mb-6 font-bold text-4xl text-gray-800 lg:text-5xl">
             Atendemos{' '}

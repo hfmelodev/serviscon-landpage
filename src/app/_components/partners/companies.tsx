@@ -3,21 +3,21 @@ import { Marquee } from '@/components/magicui/marquee'
 
 export function Companies() {
   const companies = [
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
-    { imagePath: '/partners/Meta.png', alt: 'Meta' },
-    { imagePath: '/partners/NuBank.png', alt: 'NuBank' },
+    { imagePath: '/partners/logo-alema.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/ce.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/creche.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/cresol.webp', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/dom-bosco.webp', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/duvel.webp', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/ferronorte.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/idea.jpg', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/intertek.jpeg', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/mearim-motos.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/natura.webp', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/prefeitura.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/sescoop.png', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/tropical.jpg', alt: 'Logo da Empresa Parceira' },
+    { imagePath: '/partners/undb.webp', alt: 'Logo da Empresa Parceira' },
   ]
 
   return (
@@ -27,8 +27,8 @@ export function Companies() {
           <Image
             src={company.imagePath}
             alt={company.alt}
-            width={60}
-            height={60}
+            width={70}
+            height={70}
             className="object-contain"
             priority
             quality={100}

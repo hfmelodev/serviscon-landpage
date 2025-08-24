@@ -2,7 +2,6 @@ import { CheckCircle, Eye, Leaf, Shield, Sparkles, UserCheck, Wrench } from 'luc
 import Image from 'next/image'
 import { FaWhatsapp } from 'react-icons/fa'
 import { ShimmerButton } from '@/components/app/shimmer-button'
-import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 
 const services = [
@@ -11,7 +10,7 @@ const services = [
     title: 'Limpeza e Conservação',
     description:
       'Serviços completos de limpeza e manutenção da conservação de ambientes com produtos profissionais e equipe especializada',
-    image: '/services/limpeza.jpg',
+    image: '/services/limpeza.jpeg',
     features: ['Limpeza diária e periódica', 'Produtos ecológicos', 'Equipe treinada', 'Controle de qualidade'],
   },
   {
@@ -26,7 +25,7 @@ const services = [
     title: 'Recepção Profissional',
     description: 'Atendimento profissional e acolhedor para seus visitantes e clientes com excelência no atendimento',
     image: '/services/recepcao.jpg',
-    features: ['Atendimento bilíngue', 'Gestão de agenda', 'Protocolo empresarial', 'Suporte administrativo'],
+    features: ['Gestão de agenda', 'Protocolo empresarial', 'Suporte administrativo'],
   },
   {
     icon: <Leaf className="size-8" />,

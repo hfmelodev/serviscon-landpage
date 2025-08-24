@@ -1,4 +1,5 @@
 import { Contacts } from './_components/contacts'
+import { Footer } from './_components/footer'
 import { Header } from './_components/header'
 import { Hero } from './_components/hero'
 import { Partners } from './_components/partners'
@@ -15,6 +16,7 @@ export default function Home() {
       <Segments />
       <Services />
       <Contacts />
+      <Footer />
     </main>
   )
 }

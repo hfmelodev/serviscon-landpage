@@ -6,7 +6,7 @@ export function Services() {
   return (
     <section id="services" className="border-gray-200 border-y bg-white py-12">
       <div className="container mx-auto px-4">
-        <div className="mb-16 text-center">
+        <div className="mb-16 animate-fade-in text-center">
           <Badge className="mb-4 bg-sky-100 text-sky-800 hover:bg-sky-100">⚡ Nossos Serviços</Badge>
 
           <h2 className="mb-6 font-bold text-4xl text-gray-800 lg:text-5xl">

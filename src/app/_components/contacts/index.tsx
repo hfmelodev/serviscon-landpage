@@ -1,7 +1,7 @@
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { FaWhatsapp } from 'react-icons/fa'
+import { ShimmerButton } from '@/components/app/shimmer-button'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import CompanyMaps from './company-maps'
 import { ContactItems } from './contact-items'
 import { StatItem } from './stat-item'
@@ -33,13 +33,16 @@ export function Contacts() {
             <ContactItems icon={MapPin} title="Endereço" description="São Luís, MA" />
           </div>
 
-          <Button variant="secondary" className="font-bold text-sky-700">
+          <ShimmerButton className="before:mask before:mask-composite-exclude relative font-bold text-sky-700 transition-all duration-300 before:absolute before:inset-0 before:animate-[shimmer_3s_linear_infinite] before:rounded-md before:bg-[length:200%_100%] before:bg-[linear-gradient(120deg,transparent,#FFBF00,transparent)] before:p-[1px] before:content-[''] hover:scale-105 hover:bg-sky-100 hover:text-sky-800 hover:brightness-110 md:mt-0">
             <FaWhatsapp />
             SOLICITAR ORÇAMENTO GRÁTIS
-          </Button>
+          </ShimmerButton>
 
           <div className="mt-12 rounded-2xl bg-white/10 p-6 backdrop-blur-sm">
-            <h3 className="mb-6 font-bold text-2xl text-white">Nossa Localização</h3>
+            <h3 className="mb-6 flex items-center justify-center gap-2 font-bold text-2xl text-white">
+              <MapPin className="size-5" />
+              Nossa Localização
+            </h3>
             <div className="rounded-xl bg-white p-4">
               <CompanyMaps
                 address="R. dos Ipês, 32 - 2º ANDAR – SALA 06 - Jardim Renascença, São Luís - MA, 65075-200"

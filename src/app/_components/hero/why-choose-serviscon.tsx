@@ -31,8 +31,9 @@ export function WhyChooseServiscon() {
   ]
 
   return (
-    <div className="relative">
-      <div className="absolute inset-0 rotate-6 transform rounded-3xl bg-gradient-to-r from-sky-400 to-emerald-400 opacity-20"></div>
+    <div className="relative animate-fade-in">
+      <div className="-translate-x-4 absolute inset-0 rotate-6 rounded-3xl bg-gradient-to-r from-sky-400 to-emerald-400 opacity-20" />
+
       <div className="relative rounded-3xl bg-white p-8 shadow-2xl">
         <div className="mb-6 text-center">
           <AuroraText className="text-2xl">Por que escolher a Serviscon?</AuroraText>
