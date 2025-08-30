@@ -22,8 +22,8 @@ export function Contacts() {
           <div className="mb-8 rounded-2xl bg-white/10 p-8 backdrop-blur-sm">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
               <StatItem label="24h" value="Resposta do orçamento" />
-              <StatItem label="30 dias" value="Implementação completa" />
-              <StatItem label="40%" value="Economia média" />
+              <StatItem label="30 dias" value="Implementação média completa" />
+              <StatItem label="30%" value="Economia média" />
             </div>
           </div>
 
